@@ -102,3 +102,29 @@ gap: 42px;
    width: 100%;
  }
 }
+
+@media only screen and (max-width: 775px){
+ .ratingsComponent .ratings-inner .rating-titles{
+    text-align: center;
+  }
+
+ .ratingsComponent .ratings-container{
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+}
+
+@media only screen and (max-width: 530px){
+.ratingsComponent .ratings-inner .rating-titles h2{
+    font-size: 20px;
+  }
+
+  .ratingsComponent .ratings-inner .second-title h1{
+  font-size: 40px;
+  }
+
+  .ratingsComponent .ratings-container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

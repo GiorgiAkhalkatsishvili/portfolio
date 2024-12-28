@@ -86,3 +86,34 @@ width: 750px;
 grid-area: 1/1/2/2;
   }
 }
+
+@media only screen and (max-width: 775px){
+   
+  .bannerComponent .banner-inner{
+  place-items: center;
+  }
+
+  .banner-inner .main-banner-image img{
+    width: 500px;
+  }
+
+  .bannerComponent .main-texts .info h1{
+  font-size: 40px;
+  }
+
+  .bannerComponent .banner-inner .main-texts p{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 530px){
+.banner-inner .main-banner-image img {
+   width: 400px;
+}
+
+.bannerComponent .main-texts .info h1 {
+  font-size: 30px;
+}
+
+}

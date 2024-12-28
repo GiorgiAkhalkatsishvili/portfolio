@@ -51,3 +51,36 @@ margin-bottom: 32px;
     width: 700px;
   }
 }
+
+
+@media only screen and (max-width: 775px){
+   .aboutComponent{
+    margin-bottom: 150px;
+   }
+
+  .aboutComponent .about-img img {
+      width: 500px;
+    }
+
+  .aboutComponent .about-texts .heading h2{
+font-size: 45px;
+  }
+
+  .aboutComponent .about-texts .text p{
+  padding-left: 15px;
+  padding-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 530px){
+.aboutComponent .about-img img{
+  width: 400px;
+}
+.aboutComponent .about-texts .heading h2 {
+  font-size: 40px;
+}
+
+.aboutComponent .about-texts .paragraph p{
+  font-size: 20px;
+}
+}

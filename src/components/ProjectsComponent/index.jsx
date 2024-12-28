@@ -52,7 +52,7 @@ const ProjectsComponent = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
           </div>
           <div className="project-btn">
-            <button>View on Github <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <button><a href="https://github.com/GiorgiAkhalkatsishvili/portfolio">View on Github</a><svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M4.00004 2H17.3334V15.3333M17.3334 2L1.33337 18L17.3334 2Z" stroke="black" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 </button>

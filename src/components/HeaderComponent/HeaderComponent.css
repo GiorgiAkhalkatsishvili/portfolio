@@ -130,3 +130,9 @@ transition: 0.4s ease;
   }
 
 }
+
+@media only screen and (max-width: 530px){
+  .headerComponent .main-heading{
+    padding: 25px 40px;
+  }
+}

@@ -181,3 +181,21 @@
   padding-right: 20px;
 }
 }
+
+@media only screen and (max-width: 775px){
+  .contactComponent .contact-main-headings h1{
+    font-size: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 530px){
+ .contactComponent .contact-main-headings h2{
+font-size: 20px;
+ }
+
+ .contactComponent .contact-main-headings h1{
+  font-size: 40px;
+ }
+
+}
