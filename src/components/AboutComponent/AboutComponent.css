@@ -1,0 +1,53 @@
+
+.aboutComponent{
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 300px;
+}
+
+.aboutComponent .about-inner{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  gap: 40px;
+}
+
+.aboutComponent .about-img img{
+max-width: 850px;
+width: 100%;
+}
+
+.aboutComponent .about-texts .paragraph p{
+  line-height: 150%;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.aboutComponent .about-texts .heading h2{
+  font-size: 64px;
+margin-top: 10px;
+margin-bottom: 32px;
+}
+
+.aboutComponent .about-texts .text{
+  max-width: 821px;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 960px){
+   .aboutComponent{
+    margin-bottom: 600px;
+   }
+
+  .aboutComponent .about-inner{
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+
+  .aboutComponent .about-img img{
+    width: 700px;
+  }
+}

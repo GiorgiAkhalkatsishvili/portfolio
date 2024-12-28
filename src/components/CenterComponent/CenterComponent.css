@@ -1,0 +1,105 @@
+
+.centerComponent{
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.centerComponent .main-headings h3{
+font-size: 21px;
+line-height: 150%;
+}
+
+.centerComponent .main-headings h1{
+  line-height: 120%;
+margin-bottom: 70px;
+font-size: 64px;
+}
+
+.centerComponent .skills-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-section .skill-one .img-section{
+  display: flex;
+  padding-top: 32px;
+  justify-content: flex-start;
+}
+
+.skills-section .skill-one .img-section img{
+  width: 80px;
+  margin-bottom: 32px;
+}
+
+
+.centerComponent .skills-section .skill-one{
+text-align: center;
+  max-width: 300px;
+  width: 100%;
+  padding-bottom: 32px;
+  background-color: #f5fcff;
+  border-radius: 11px;
+}
+
+.centerComponent .skills-section .inner-skills-info{
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.skills-section .skill-one .language-heading h3{
+  font-weight: bold;
+  font-size: 32px;
+  display: flex;
+  padding-left: 10px;
+  padding-bottom: 21px;
+}
+
+.centerComponent .skill-one .language-text{
+  line-height: 150%;
+}
+
+
+@media only screen and (max-width:1250px){
+   .centerComponent{
+    max-width: 1000px;
+      width: 100%;
+   }
+
+  .centerComponent .skills-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 42px;
+  }
+
+  .centerComponent .skills-section .skill-one{
+    max-width: 500px;
+    width: 100%;
+  }
+
+ .centerComponent .skills-section .skill-one .inner-skills-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+}
+
+@media only screen and (max-width: 960px){
+  .centerComponent {
+  text-align: center;
+  }
+
+  .centerComponent .skills-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 42px;    
+   place-items: center;
+   width: 100%;
+    }
+
+ .centerComponent .skills-section .skill-one{
+    max-width: 700px;
+    width: 100%;
+  }
+}

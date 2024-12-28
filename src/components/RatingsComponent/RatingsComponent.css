@@ -1,0 +1,104 @@
+
+.ratingsComponent{
+  background-color: #f5fcff;
+  height: auto;
+  margin-bottom: 200px;
+}
+
+.ratingsComponent .ratings-inner{
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+
+.ratingsComponent .rating-titles .first-title h2{
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 150%;
+  padding-top: 150px;
+}
+
+.ratingsComponent .rating-titles .second-title h1{
+  line-height: 120%;
+  font-size: 55px;
+  margin-bottom: 106px;
+}
+
+.ratings-container{
+  padding-bottom: 150px;
+  display: flex;
+justify-content: space-between;
+}
+
+.ratings-container .rating-box-one{
+  max-width: 390px;
+  width: 100%;
+  border: solid 1.33px #006B6A;
+  border-radius: 8px;
+}
+
+.ratings-container .rating-box-one .ratings-inner{
+padding: 42px;
+display: flex;
+flex-direction: column;
+gap: 42px;
+}
+
+.ratings-container .rating-box-one .ratings{
+  display: flex;
+  gap: 5px;
+}
+
+.ratings-container .rating-box-one .ratings svg{
+  width: 27px;
+}
+
+.rating-box-one  .info-texts p{
+  font-size: 17px;
+}
+
+.ratings-container .rating-box-one .user-image img{
+  width: 75px;
+}
+
+.ratings-container .rating-box-one .user-info{
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+
+@media only screen and (max-width:1250px){
+  .ratingsComponent .ratings-inner{
+    max-width: 1000px;
+    width: 100%;
+  }
+
+  .ratingsComponent .ratings-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+  }
+
+  .ratings-container .rating-box-one{
+    max-width: 450px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 960px){
+.ratingsComponent .ratings-inner {
+    place-items: center;
+  }
+
+ .ratingsComponent .ratings-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 40px;
+  }
+
+ .ratings-container .rating-box-one {
+   max-width: 700px;
+   width: 100%;
+ }
+}

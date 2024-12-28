@@ -1,0 +1,174 @@
+
+.projectsComponent{
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 300px;
+}
+
+.projectsComponent .heading-one h3{
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 150%;
+}
+
+.project-headings .main-heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-headings .main-heading .main-btn button{
+  background-color: #E62872;
+  outline: none;
+  border: #E62872;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 15px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.project-headings .main-heading .main-btn button svg{
+  width: 32px;
+}
+
+.project-headings .main-heading .main-btn button a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.project-headings .main-heading h2{
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.projectsComponent .projects-list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 106px;
+}
+
+.projects-list .project{
+  border: solid 1px #fff;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 5px 0.5px #000000;
+  max-width: 400px;
+  width: 100%;
+}
+
+.projects-list .project img{
+  width: 100%;
+ border-radius: 8px 8px 0 0;
+}
+
+.projects-list .project .project-texts{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.projects-list .project .project-texts h3{
+  padding-top: 32px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.projects-list .project .project-texts p{
+  padding-top: 10px;
+  padding-bottom: 32px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.projects-list .project .project-btn{
+  padding-left: 32px;
+  padding-bottom: 32px;
+}
+
+.projects-list .project .project-btn a{
+  text-decoration: none;
+  font-size: 15px;
+  color: #000;
+}
+
+.projects-list .project .project-btn button{
+border: none;
+border-bottom: solid 1px #5E3BEE;
+display: flex;
+align-items: center;
+padding-bottom: 10px;
+background-color: #fff;
+gap: 16px;
+cursor: pointer;
+}
+
+.projects-list .project .project-btn button svg{
+  width: 11px;
+}
+
+
+@media only screen and (max-width:1250px){
+
+  .projectsComponent{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 300px;
+  }
+
+  .projectsComponent .projects-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 40px;
+  }
+
+ .project-headings .main-heading .main-btn button{
+  margin-right: 50px;
+ }
+
+ .projects-list .project{
+  max-width: 450px;
+  width: 100%;
+ }
+}
+
+
+@media only screen and (max-width: 960px){
+ .projectsComponent{
+  place-items: center;
+  text-align: center;
+ }
+
+ .project-headings .main-heading{
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+ }
+
+.project-headings .main-heading .main-btn{
+display: flex;
+justify-content: flex-end;
+max-width: auto;
+width: 100%;
+}
+
+.projectsComponent .heading-one{
+  text-align: center;
+}
+
+ .projectsComponent .projects-list {
+   display: grid;
+   grid-template-columns: 1fr;
+   row-gap: 40px;
+ }
+
+ .projects-list .project {
+   max-width: 700px;
+   width: 100%;
+ }
+
+}

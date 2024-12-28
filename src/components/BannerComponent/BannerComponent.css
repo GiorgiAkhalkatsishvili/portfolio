@@ -1,0 +1,88 @@
+
+.bannerComponent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background-color: #f5fcff;
+  max-height: 1000px;
+  height: 100vh;
+  margin-bottom: 150px;
+}
+
+.bannerComponent .banner-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1350px;
+  width: 100%;
+}
+
+.bannerComponent .main-texts .name p{
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 150%;
+  margin-bottom: 22px;
+}
+
+.bannerComponent .main-texts .info{
+  max-width: 790px;
+  width: 100%;
+}
+
+.bannerComponent .main-texts .info h1{
+  font-size: 55px;
+  line-height: 120%;
+}
+
+
+.bannerComponent .fake-text p{
+  color: #1C1E53;
+  margin-top: 21px;
+  margin-bottom: 32px;
+}
+
+.bannerComponent .info-button button{
+  background-color: #5E3BEE;
+  color: #fff;
+  outline: none;
+  border: solid 1px #5E3BEE;
+  padding: 18px 25px 18px 25px;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.bannerComponent .info-button button:hover{
+  background-color: #fff;
+  color: #5E3BEE;
+}
+
+.bannerComponent .main-banner-image img{
+width: 750px;
+}
+
+@media only screen and (max-width:1250px){
+   
+   .bannerComponent{
+    height: auto;
+   }
+
+  .bannerComponent .banner-inner{
+    display: grid;
+    max-width: 790px;
+      width: 100%;
+      margin: auto;
+    padding-bottom: 30px;
+  }
+
+  .bannerComponent .banner-inner .main-texts{
+     text-align: center;
+  }
+
+  .bannerComponent .banner-inner .main-banner-image{
+grid-area: 1/1/2/2;
+  }
+}
