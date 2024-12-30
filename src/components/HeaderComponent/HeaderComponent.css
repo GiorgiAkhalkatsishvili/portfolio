@@ -1,10 +1,15 @@
 
-
 .headerComponent .main-heading{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 25px 85px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  width: 100%;
 }
 
 .headerComponent .main-img-texts{
@@ -116,13 +121,14 @@ transition: 0.4s ease;
   right: -300px;
   background-color: #354952;
   border-left: solid 1px grey;
-  height: 100vh;
   width: 200px;
   text-align: center;
   padding-top: 40px;
   color: white;
   transition: right 0.3s ease-in-out;
   z-index: 1000;
+  top: 0;
+  bottom: 0;
   }
 
   .sidebar.open {
@@ -135,4 +141,5 @@ transition: 0.4s ease;
   .headerComponent .main-heading{
     padding: 25px 40px;
   }
+
 }

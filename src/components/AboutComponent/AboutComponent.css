@@ -74,7 +74,7 @@ font-size: 45px;
 
 @media only screen and (max-width: 530px){
 .aboutComponent .about-img img{
-  width: 400px;
+  width: 350px;
 }
 .aboutComponent .about-texts .heading h2 {
   font-size: 40px;
@@ -82,5 +82,9 @@ font-size: 45px;
 
 .aboutComponent .about-texts .paragraph p{
   font-size: 20px;
+}
+
+.aboutComponent .about-texts .text{
+  padding-right: 10px;
 }
 }

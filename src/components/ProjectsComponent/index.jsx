@@ -30,7 +30,6 @@ const ProjectsComponent = () => {
         <div className="project">
           <div className="project-img">
             <img src={websiteOne} alt="" /> 
-{/* put your website photo here, and text below */}
           </div>
           <div className="project-texts">
             <h3>Ecommerce website</h3>
@@ -61,10 +60,9 @@ const ProjectsComponent = () => {
         <div className="project">
           <div className="project-img">
             <img src={shopWebsiteImg} alt="" /> 
-{/* put your website photo here, and text below */}
           </div>
           <div className="project-texts">
-            <h3>Project Name</h3>
+            <h3>Shop Website</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
           </div>
           <div className="project-btn">
